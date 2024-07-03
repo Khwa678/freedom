@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding:0;
+
+}
+.one h1{
+    text-align: center;
+    font-size: 50px;
+    background-color: pink ;
+
+}
+.one img {
+    width:100%;
+
+}
+.second {
+    position: relative;
+}
+.second img {
+    width:100%;
+
+}
+.two{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.two h2{
+    color:beige;
+text-align: center;
+margin-top: -100px;
+
+    background-color: black;
+    width:100%;
+
+
+}
+
+.two h1{
+    margin-top: 45px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+.logos{
+display: flex;
+    margin-top: 45px;
+    gap:24px;
+    cursor: pointer;
+
+    
+}
+.logos i{
+    font-size: 50px;
+}
+.logos i:hover{
+    color: rgba(37, 203, 203, 0.548);
+}
